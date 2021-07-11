@@ -1,0 +1,32 @@
+<svg id="numberSelectorView">
+  <rect id="numberselectorheader" fill="black" x="0" y="0" width="100%" height="25%" />
+  <text id="numberselectortext" fill="red" x="50%" y="15%" text-length="100" />
+  <svg y="20%" height="80%">
+    <defs>
+      <symbol id="number-item" href="#tile-list-item" focusable="false" height="100"
+              class="tile-item" pointer-events="none" system-events="all" display="none">
+        <text id="text" class="list-item-text" fill="white" x="50%-5"/>
+        <rect id="tile-divider-bottom" class="tile-divider-bottom" />
+        <rect id="tile-item-rect" pointer-events="all" x="0" y="0" width="100%"
+              height="100%" opacity="0"/>
+      </symbol>
+    </defs>
+    <use id="number-list" href="#tile-list" y="0" x="0" width="100%" height="100%">
+      <var id="virtual" value="1" />
+      <var id="separator-height-bottom" value="2" />
+
+      <use id="number-list-pool" href="#tile-list-pool">
+        <use id="number-list-pool[0]" href="#number-item" />
+        <use id="number-list-pool[1]" href="#number-item" />
+        <use id="number-list-pool[2]" href="#number-item" />
+        <use id="number-list-pool[3]" href="#number-item" />
+        <use id="number-list-pool[4]" href="#number-item" />
+        <use id="number-list-pool[5]" href="#number-item" />
+        <use id="number-list-pool[6]" href="#number-item" />
+        <use id="number-list-pool[7]" href="#number-item" />
+        <use id="number-list-pool[8]" href="#number-item" />
+        <use id="number-list-pool[9]" href="#number-item" />
+      </use>
+    </use>
+  </svg>
+</svg>

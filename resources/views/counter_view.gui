@@ -1,0 +1,20 @@
+<svg id="counterview">
+  <svg>
+    <use id="menubackbutton" href="#square-button" class="button-top-left" fill="fb-red">
+      <set href="#text" attributeName="text-buffer" to="Back" />
+    </use>
+    <use id="incrementbutton" href="#square-button" class="button-bottom-left" fill="fb-red">
+      <set href="#text" attributeName="text-buffer" to="Count +1" />
+    </use>
+    <use id="donebutton" href="#square-button" class="button-bottom-right" fill="fb-red">
+      <set href="#text" attributeName="text-buffer" to="Done" />
+    </use>
+  </svg>
+  <text id="countertext" x="50%" y="50%+15"/>
+  <use id="stopalarmbutton" href="#square-button" x="25%" y="40%" width="50%" fill="fb-red">
+    <set href="#text" attributeName="text-buffer" to="Chill" />
+  </use>
+  <use id="stopearlybutton" href="#square-button" class="button-top-right" fill="fb-red">
+    <set href="#text" attributeName="text-buffer" to="Stop" />
+  </use>
+</svg>

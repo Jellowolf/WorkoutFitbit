@@ -1,0 +1,32 @@
+<svg id="workoutTypeSelectorView">
+  <rect id="workouttypeselectorheader" fill="black" x="0" y="0" width="100%" height="25%" />
+  <text id="workouttypeselectortext" fill="red" x="50%-75" y="15%" >Workout Type</text>
+  <svg y="20%" height="80%">
+    <defs>
+      <symbol id="type-item" href="#tile-list-item" focusable="false" height="100"
+              class="tile-item" pointer-events="none" system-events="all" display="none">
+        <text id="text" class="list-item-text" fill="white" x="20%"/>
+        <rect id="tile-divider-bottom" class="tile-divider-bottom" />
+        <rect id="tile-item-rect" pointer-events="all" x="0" y="0" width="100%"
+              height="100%" opacity="0"/>
+      </symbol>
+    </defs>
+    <use id="workout-type-list" href="#tile-list" y="0" x="0" width="100%" height="100%">
+      <var id="virtual" value="1" />
+      <var id="separator-height-bottom" value="2" />
+
+      <use id="type-list-pool" href="#tile-list-pool">
+        <use id="type-list-pool[0]" href="#type-item" />
+        <use id="type-list-pool[1]" href="#type-item" />
+        <use id="type-list-pool[2]" href="#type-item" />
+        <use id="type-list-pool[3]" href="#type-item" />
+        <use id="type-list-pool[4]" href="#type-item" />
+        <use id="type-list-pool[5]" href="#type-item" />
+        <use id="type-list-pool[6]" href="#type-item" />
+        <use id="type-list-pool[7]" href="#type-item" />
+        <use id="type-list-pool[8]" href="#type-item" />
+        <use id="type-list-pool[9]" href="#type-item" />
+      </use>
+    </use>
+  </svg>
+</svg>

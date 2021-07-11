@@ -1,0 +1,44 @@
+.background {
+  viewport-fill: fb-black;
+}
+
+#countertext {
+  fill: white;
+  font-size: 32;
+  font-family: System-Regular;
+  font-weight: bold;
+  text-anchor: middle;
+  text-length: 99;
+}
+
+.list-item-text {
+  text-length: 32;
+}
+
+.button-top-left {
+  x: 0;
+  y: 0;
+  height: 72;
+  width: 50%;
+}
+
+.button-top-right {
+  x: 50%;
+  y: 0;
+  height: 72;
+  width: 50%;
+}
+
+.button-bottom-left {
+  x: 0;
+  y: 100%-72;
+  height: 72;
+  width: 50%;
+}
+
+.button-bottom-right {
+  x: 50%;
+  y: 100%-72;
+  height: 72;
+  width: 50%;
+}

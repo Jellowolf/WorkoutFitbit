@@ -1,0 +1,8 @@
+<svg id="menuview">
+  <use id="syncbutton" href="#square-button" class="button-top-right" fill="fb-red">
+    <set href="#text" attributeName="text-buffer" to="Sync" />
+  </use>
+  <use id="startcounterbutton" href="#square-button" class="button-bottom-right" fill="fb-red">
+    <set href="#text" attributeName="text-buffer" to="Start" />
+  </use>
+</svg>

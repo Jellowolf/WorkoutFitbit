@@ -1,0 +1,6 @@
+<svg class="background">
+  <link rel="import" href="views/menu_view.gui"/>
+  <link rel="import" href="views/counter_view.gui"/>
+  <link rel="import" href="views/workout_type_selector_view.gui"/>
+  <link rel="import" href="views/number_selector_view.gui"/>
+</svg>
